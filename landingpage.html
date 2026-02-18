@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #4a00e0, #8e2de2);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        .demo-btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 28px;
+            background: #ff9800;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+        }
+
+        /* Sections */
+        section {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #4a00e0;
+        }
+
+        /* Features */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .feature-box {
+            background: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .feature-box h3 {
+            margin-bottom: 15px;
+            color: #8e2de2;
+        }
+
+        /* About */
+        .about {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .about img {
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        .about-text {
+            flex: 1;
+        }
+
+        /* Call to Action */
+        .cta {
+            background: #4a00e0;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .cta h2 {
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .cta a {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #ff9800;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+        }
+
+        /* Footer */
+        footer {
+            background: #1e1e2f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .about {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to Our Landing Page</h1>
+        <p>Build modern, responsive, and beautiful websites using HTML & CSS</p>
+        <a href="#" class="demo-btn">FOR DEMO CLICK HERE</a>
+    </header>
+
+    <!-- Features Section -->
+    <section>
+        <h2>Our Features</h2>
+        <div class="features">
+            <div class="feature-box">
+                <h3>Responsive Design</h3>
+                <p>Looks great on all devices including mobiles, tablets, and desktops.</p>
+            </div>
+
+            <div class="feature-box">
+                <h3>Clean Layout</h3>
+                <p>Proper spacing, alignment, and color palette for a professional look.</p>
+            </div>
+
+            <div class="feature-box">
+                <h3>Easy to Customize</h3>
+                <p>Simple HTML and CSS structure, perfect for beginners.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section>
+        <h2>About This Project</h2>
+        <div class="about">
+            <img src="https://img.freepik.com/free-photo/beautiful-young-business-woman-using-laptop-phone-car_231208-7755.jpg?semt=ais_hybrid&w=740&q=80" alt="Landing Page Image">
+            <div class="about-text">
+                <p>
+                    Work on the go with confidence and style.
+
+Where productivity meets freedom — work anywhere.
+
+Smart design for modern professionals on the move.
+
+Effortless multitasking with tools that keep up with you.
+
+Empower your workflow — from laptop to smartphone to success.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call To Action -->
+    <div class="cta">
+        <h2>Start Your Web Development Journey</h2>
+        <p>Practice HTML & CSS by building beautiful landing pages.</p>
+        <a href="#">Get Started</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Landing Page Project | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
